@@ -9,15 +9,69 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+    <header>
+      <nav>
+        <ul>
+          <li><img class="NavLogo" src="ImgFolder/logo.avif" alt="Darko logo"></li>
+          <li><a href="#Section1">Section 1</a></li>
+          <li><a href="#Section2">Section 2</a></li>
+
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h1>Home page</h1>
+      <!-- FirstSection is displayed text to the left and image to the right -->
+      <section id="Section1"
+      class="FirstSection">
+        <div>
+          <h1>Darko (US)</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum aut enim id perferendis nemo illo, totam quos sapiente accusamus dolorem.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil neque praesentium sunt, in esse voluptates nobis et aliquam accusantium blanditiis vel corporis tempora odio, eius, aperiam repellendus cupiditate iusto. Sit, unde obcaecati?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cupiditate adipisci odit soluta similique placeat autem expedita quasi qui, doloribus veritatis, sequi sit facilis aliquam neque consequatur impedit, odio possimus rem voluptas quaerat velit dignissimos molestiae tempore? Quae, adipisci error quasi debitis provident quos cum quam reprehenderit voluptatibus cumque consectetur. Natus modi aliquam nemo velit sit mollitia illum! Porro recusandae illo inventore harum est.</p>
+        </div>
+        <img class="MainImage" src="ImgFolder/darko band.jpg" alt="Darko">
+      </section>
+      <!-- SecondSection is displayed image to the left and text to the right -->
+      <section id="Section2"
+      class="SecondSection">
+        <div class="Card">
+          <img class="CardImage" src="ImgFolder/bloodhost.jpg" alt="Darko Bloodhost">
+          <div class="CardText">
+            <h2>BLOOD HOST</h2>
+            <p>The latest single from Darko. Expected to be a part of Dethmask pt. 3.</p>
+          </div>
+        </div>
+
+        <div class="Card">
+          <img  class="CardImage" src="ImgFolder/starfire.jpg" alt="Darko Starfire">
+          <div class="CardText">
+            <h2>STARFIRE</h2>
+            <p>The highly anticipated new full-length album by Darko.</p>
+          </div>
+        </div>
+
+        <div class="Card">
+          <img class="CardImage" src="ImgFolder/dethmask2.jpg" alt="Darko Dethmask part 2">
+          <div class="CardText">
+            <h2>Dethmask pt. 2</h2>
+            <p>The fallowup of the 2020 EP Dethmask.</p>
+          </div>
+        </div>
+
+        <div class="Card">
+          <img class="CardImage" src="ImgFolder/oni.jfif" alt="">
+          <div class="CardText">
+            <h2>Oni</h2>
+            <p>Darkos previous album, their most successful release to date.6</p>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
