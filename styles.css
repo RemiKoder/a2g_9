@@ -44,7 +44,7 @@ h1 {
 }
 
 .MainImage {
-  height: 85vh;
+  height: 100vh;
   width: auto;
 }
 
@@ -226,5 +226,5 @@ h1 {
     .Card {
       width: 350px;
     }
-    
+
   }
